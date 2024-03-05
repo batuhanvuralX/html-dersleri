@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <h1>Kayıt Ol</h1>
+        <form name="kayit" action="kayıt.php" method="get">
+            Ad Soyad: <input type="text" name="adsoyad">
+            <br>
+            <input type="submit">
+            <!--kayıt formunu oluştururken form tagını kullabilirsin
+            kayt formuna name özelliği ile isim verebilir
+        action özelliği ile formun nereye gönderileceğine
+    method özelliğile de açık veya kapalı kaynak olarak gönderimesini sağlarsın
+input bir text kutusu çağırmanı sağlar ve form oluşturabilirsin-->
+        </form>
+
+            <form name="kayıt" action="acıklama.html" method="get">
+                Adsoyad: <input type="text" name="id" id="idadsoyad" size="25" maxlength="30" required>
+                <br>
+                Meslek: <input type="text" name="meslek" id="idmeslek" size="25" maxlength="40" required>
+                <br>
+                Öğrenim Durumu: <input type="text" name="öğrenim" id="idöğrenim" size="25" maxlength="50" required>
+                <br>
+                <input type="submit" value="gönder">
+                <input type="reset" value="iptal et">
+                <!--submit= onayla gönder demek
+                    reset= red et onaylama gönderme demek
+                    value= butonun içinde yazacak değeri kendin belirlemeni sağlar-->
+                
+                
+                    <!--size= butonun ne kadar karakter uzunluğunda gözükeceği
+                maxlength en fazla kaç karakter alabileceğini gösterir
+                required zorunlu alan demektir
+                id benzersiz bir isim vermeni sağlar
+                name textin adını verir-->
+
+
+            </form>
+
+    </body>
+
+
+
+
+
+</html>

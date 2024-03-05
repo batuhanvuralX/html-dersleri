@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="form onaylama dersleri">
+        <meta name="keywords" content="form,onay,onaylama"> 
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        <title>Form Onaylama</title>
+        
+
+    </head>
+    <body>
+        <h>Form Onaylam</h>
+        <form name="onay" action="sda.php" method="get">
+            <input type="checkbox" name="bültün"> Bülten istiyorum
+            <br><br>
+            <input type="submit" value="istiyorum">
+
+            <!-- Form adı ile Onay kutusunun adı aynı olmamalı
+            form = name = onay
+            checkbox = bülten şekinde olmalı
+        -->
+        </form>
+        <h2>Seçenek kutusu</h2>
+        <form name="Secenek" action="sss.php" method="get">
+            <input type="radio" name="spor" value="futbol" checked> futbol
+            <input type="radio" name="spor" value="basketbol">
+            <input type="radio" name="spor" value="voleybol">
+            <br>
+            <input type="submit"><input type="reset">
+            <!-- sçenek kutusunda name özelliği aynı olmalı
+                Fakat Value özelliği farklı olmalı
+                checked özelliği Seçili bir kutu atar ver seçilmil olarak gösterilir!!! 
+                -->
+
+
+        </form>
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>
