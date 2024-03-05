@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta name="viewport" content="width-device=width initial-width=1.0">
+        <meta name="descriptipn" content="genel sayfa düzeni kurgulama">
+        <meta name="keywords" content="div,sayfa,düzen,html,css">
+        <meta charset="utf-8">
+        <title>Genel sayfa düzeni</title>
+        <style>
+            #sayfa{
+                border-style: solid;
+                width: 300px;             /*alanın genişliğini söyler*/
+                margin: auto;             /*sayfanın ortada olmasını ayarlar*/
+                background-color: chocolate;
+            }
+            header{
+                border-style: double;
+                background-color: blue;
+                border-color:aqua;
+                width: 280px;
+                height: 50px;
+                margin: auto;
+
+            }
+            nav{
+                border-style:dashed;
+                background-color: blueviolet;
+                border-color: yellow;
+                width: 250px;
+                height: 30px;
+                margin: auto;
+
+            }
+            article{
+                border-style:solid;
+                background-color:green;
+                border-color: black;
+                width: 250px;
+                min-height: 250px; /*bu artical bölümüne gelir çok önemli en düşük aralığının 250px olacağını söyler ve bütün sayfa büyümüş olur
+                                    (diz) de büyümüş olur !!! */
+                margin: auto;
+
+
+            }
+            footer{
+                border-style:dotted;
+                background-color: red;
+                border-color: yellow;
+                width: 250px;
+                height: 30px;
+                margin: auto;
+
+            }
+
+
+
+
+        </style>
+
+
+
+    </head>
+    <body>
+        <div id="sayfa">
+        <header>
+            burası başlıktır yada bannerdır
+        </header>
+        <nav>
+            burası menüdür
+        </nav>
+        <article>
+            buraya yazılar içerikler gelir
+        </article>
+        <footer>
+            sayfa sonu genelde telif hakkıdır
+        </footer>
+    </div>
+
+    </body>
+
+
+
+
+
+</html>
