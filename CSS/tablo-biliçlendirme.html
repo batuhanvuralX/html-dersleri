@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>  
+        <title>CSS'ile Tablo Biçimlendirme</title>
+        <meta name="description" content="CSS ile tablo biçimlendirmenin yolları">
+        <meta name="keywords" content="CSS,TABLO,HTML">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device=width initial-scale=1.0">
+
+        <style>
+            table{
+                color: blue;
+                background-color: yellow;
+                border-collapse: collapse;
+                border-width: 3px;
+                border-color: brown;
+            }
+            th{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 16px;
+                font-weight: bolder;
+                color: red;
+                background-color: green;
+                padding: 10px;
+                margin: 10px;
+                background-image: url(resimler/doğa.jpeg);
+                border-width: 3px;
+                border-color: brown;
+            }
+            td{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 12px;
+                font-weight: lighter;
+                color: blue;
+                padding: 6px;
+                text-align: right; /* yatay pozisyonlama metinler için */
+                height: 30px;
+                vertical-align: top; /* dikey pozisyonlama metinler için*/
+                border-width: 3px;
+                border-color: brown;
+                
+            }
+
+
+
+
+
+
+        </style>
+
+    </head>
+    <body>
+        <table border="1">
+            <tr><th>Ülke</th><th>Nüfus</th></tr>
+            <tr><td>Türkiye</td><td>82</td></tr>
+            <tr><td>Yunanistan</td><td>15</td></tr>
+            <tr><td>Bulgaristan</td><td>11</td></tr>
+
+
+
+        </table>
+
+    </body>
+
+
+
+
+
+</html>

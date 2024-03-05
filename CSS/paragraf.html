@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="CSS ile paragraf biçimlendirme">
+        <meta name="keywords" content="css ile paragrafın ayarlarını düzenini ve şekilini ayarlayabilirsin">
+        <title>CSS İLE PARAGRAF AYARLAMA</title>
+        <meta charset="utf-8">
+        <meta name="viewport width-device=width initial-scale=1.0">
+
+        <style> 
+            h1 {
+                border-style: solid;
+                color: red;
+            }
+
+
+            p{
+                /*PARAGRAF ÖZELLİKLERİ*/
+                text-indent: 30px; /*paragrafın ilk başının (GİRİNTİL OLMASINI) SAĞLAR*/
+                text-align: center; /* paragrafın (SAĞA-SOLA-ORTAYA) YASLANMASI SAĞLAR*/
+                line-height: 20px; /* Metinler arasındaki mesafiyi ayarlar */
+
+                /*METİN ÖZELLİKLERİ*/
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* BU YAZI TİPİNİ AYARLAR*/
+                color: green;
+                font-size: 12px;
+                font-weight: bold;   
+                font-style: italic; 
+                font-variant: small-caps; /* Harfleri (biçimlendiri) mesela hepsi büyük harf olarak fakat boyutları küçük büyük harf */
+                text-transform: capitalize; /* kelimenin her ilk harfini büyük harf yapar */
+                text-decoration: underline; /* metinlerin altı (çizili) olur (overline) metinlerin üstünü çizer */
+                letter-spacing: 3px; /* her harf arası mesafe ayarı*/
+                word-spacing: 5px; /* kelimeler arası boşluk ayarı */
+
+            }
+
+            .metin {
+                text-indent: 10px;
+                text-align: left;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: normal;
+                color: blue;
+                font-size: 12px;
+                text-decoration: none;
+                background-color:grey;
+                background-image: url(resimler/doğa.jpeg);
+                background-size: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 200px;
+                overflow: auto;
+            }
+
+
+
+
+        </style>
+
+
+    </head>
+    <body>
+
+        <h1>Paragraf Özellikleri</h1>
+        <p class="metin">neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+        </p>
+
+        <p>neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+        </p>
+
+
+        <p class="metin">neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+            neden neden neden neden neden neden
+        </p>
+
+
+    </body>
+
+
+
+
+
+</html>
